@@ -1,0 +1,43 @@
+@import './task.css';
+@import './task-cell.css';
+@import './calendar-day.css';
+@import './timezone-cell.css';
+@import './hour-cell.css';
+@import './current-time.css';
+
+
+
+
+
+
+.calendar{
+    /* border: 1px solid purple; */
+    color: var(--gray20);
+    padding-inline: 1.5rem;
+   --minBlockSize: 3rem;
+   --maxBlockSize:auto;
+   --minInlineSize:32rem;
+   --maxInlineSize:auto;
+    position: relative;
+
+
+}
+
+
+
+.calendar-week{
+    display: grid;
+    grid-template-columns: auto (1, minmax(var(--minInlineSize), var(--maxInlineSize)));
+    grid-template-rows: 7rem repeat(24, minmax(var(--minBlockSize), var(--maxBlockSize)));
+
+    min-block-size: 700px;
+
+} 
+
+
+
+
+
+.calendar-day{
+
+}

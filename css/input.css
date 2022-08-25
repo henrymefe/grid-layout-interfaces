@@ -1,0 +1,40 @@
+.input {
+    display: flex; 
+    gap: 1rem;
+    align-items: center;
+    outline: none;
+
+}
+
+.input i{
+    font-size: 1.5rem;
+
+
+}
+
+
+.input.is-outstanding input{ 
+    font: var(--subtitle-subtitle1);
+
+
+}
+
+.input-body {
+    display: flex;
+}
+
+.input input,
+.input textarea {
+    flex: 1;
+    font: var(--);
+
+
+}
+
+
+.input input:focus,
+.input textarea:focus {
+
+box-shadow: 0 2px 0 var(--blue10);
+
+}

@@ -1,0 +1,47 @@
+:root{
+    --gray50:#222222;
+    --gray20:#70757A;
+    --gray10:#F1F3F4;
+    --gray30:#3C4043;
+    --blue10:#1A73E8;
+    --blue20:#039BE5;
+    --red10:#E8453C;
+    --green10:#33B679;
+    --blue30:#1967D2;
+    --white:#FFFFFF;
+    /* --body1-regular:400 0.875rem/1.25rem Roboto;
+    --body1-medium:500 0.875rem/1.25rem Roboto;
+    --body3-medium:500 0.625rem/0.5rem Roboto;
+    --body3-regular:400 0.75rem/0.5rem Roboto;
+    --body2-regular:400 0.75rem/1rem Roboto;
+    --body2-medium:500 0.75rem/1rem Roboto;
+    --button-button:500 0.875rem/1rem Roboto;
+    --subtitle-subtitle1:400 1.375rem/1.75rem Roboto; */
+--body1-regular:400 0.875rem/1.25rem Roboto;
+--body1-medium:500 0.875rem/1.25rem Roboto;
+--body3-medium:500 0.625rem/0.5rem Roboto;
+--body3-regular:400 0.625rem/0.5rem Roboto;
+--body2-regular:400 0.75rem/1rem Roboto;
+--body2-medium:500 0.75rem/1rem Roboto;
+--button-button:500 0.875rem/1rem Roboto;
+--subtitle-subtitle1:400 1.375rem/1.75rem Roboto;
+
+}
+
+body{
+    font: var(--body1-regular);
+    /* margin: 0; */
+    /* color: var(--gray50);
+    background: var(--white); */
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* --gray50: #FFFFFF;
+        --gray20: #FFFFFF;
+        --white: #222222; */
+    }
+
+}

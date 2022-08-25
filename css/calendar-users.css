@@ -1,0 +1,71 @@
+
+.search {
+    flex: 1;
+    position: relative;
+    gap: 1rem;
+}
+
+.search i{
+    position:absolute;
+    font-size: 1rem;
+    left: .5rem;
+    top: calc(50% - .5em);
+    block-size: 1rem;
+  }
+
+  .search input{
+    font: var(--baseFont);
+    /* border-radius: 1.25rem; */
+    border: none;
+    max-inline-size: 22rem;
+    width: 100%;
+    padding: .5rem;
+    padding-inline-start: 2rem;
+    color: var(--gray30);
+  }
+
+
+  .searchFriends{
+    padding-block-start: 1rem ;
+    padding-block-end: 1rem ;
+    
+  }
+
+    
+
+
+.miCalendario {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1rem; */
+    align-items: center;
+    font: var(--body1-medium);
+    padding-inline-start: .25rem;
+}
+
+
+.selectUsers{
+ font: var(--body1-medium);
+ display: flex;
+ flex-direction: column;
+ gap: .25rem;
+ /* margin-inline-end: 1rem ; */
+
+
+}
+
+
+
+
+
+.searchFriends input::-webkit-input-placeholder{
+color: var(--gray20);
+
+
+
+}
+
+.searchFriends input {
+background: var(--gray10);
+
+}
